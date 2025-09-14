@@ -7,7 +7,7 @@ def resize_images_in_directory():
     It overwrites the original files.
     """
     # Define the target resolution
-    target_size = (60, 60)
+    target_size = (160, 160)
     
     # Get the current directory
     current_directory = os.getcwd()
